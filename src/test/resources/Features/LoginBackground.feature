@@ -1,4 +1,4 @@
-@forgot
+@background
 Feature: I want to use this background for my feature file
 
   Background: I want to run login scenario as background feature
@@ -16,6 +16,13 @@ Feature: I want to use this background for my feature file
     Then find your account button showedup
 
   @smoke
+  Scenario: As a tester I want to test forgot password account
+    so that user can only login with valid login credetial
+
+    When I click forgot password button
+    Then find your account button showedup
+    
+     @smoke
   Scenario: As a tester I want to test forgot password account
     so that user can only login with valid login credetial
 

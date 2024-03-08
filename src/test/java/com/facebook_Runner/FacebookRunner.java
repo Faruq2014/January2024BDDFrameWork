@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 				snippets=SnippetType.CAMELCASE,	
 				//snippets=SnippetType.UNDERSCORE,
 				features="src/test/resources/Features",
-				tags="@smoke",
+				tags="@loginDataTable",
 				glue="com.facebook_StepDefination",
 				//dryRun=false,
 				monochrome = true

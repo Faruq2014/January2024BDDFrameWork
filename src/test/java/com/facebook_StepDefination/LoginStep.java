@@ -1,7 +1,5 @@
 package com.facebook_StepDefination;
 
-import org.junit.Assert;
-
 import com.facebook_BaseSteps.BaseStep;
 import com.facebook_Pages.LoginPage;
 

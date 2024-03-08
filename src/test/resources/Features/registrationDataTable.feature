@@ -1,4 +1,4 @@
-@reg
+@dataTable
 Feature: Registration page
 
   @smoke
@@ -9,5 +9,4 @@ Feature: Registration page
     When I complete registraton form
       | firtName | lastName | mobleNumber | reEnterEmail | newPassword | birthMonth | birthDay | birthYear | selectGender |
       | Faruq    | Molla    | fm@gmail    | fm@gmail     | k789        | Feb        |       24 |      2000 | male         |
-   
     Then validate outcome

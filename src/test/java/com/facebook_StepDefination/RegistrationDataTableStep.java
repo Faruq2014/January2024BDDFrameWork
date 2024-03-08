@@ -11,7 +11,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class RegistrationStep extends BaseStep{
+public class RegistrationDataTableStep extends BaseStep{
 	
 	RegistrationPage registrationPage;
 	@Given("I open facebook url open")

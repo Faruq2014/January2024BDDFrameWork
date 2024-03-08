@@ -48,7 +48,7 @@ public class LoginBackgroundStep extends BaseStep {
 
 	@Then("find your account button showedup")
 	public void find_your_account_button_showedup() {
-		closeApplication();
+		//closeApplication();
 	}
 
 }
